@@ -1,0 +1,66 @@
+/* app css stylesheet */
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Indie Flower'), local('IndieFlower'), url(http://themes.googleusercontent.com/static/fonts/indieflower/v5/10JVD_humAd5zP2yrFqw6qRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+body {
+  margin:0;
+  padding:0;
+  background: #69D2E7 url("/img/arriere_plan_1.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/arriere_plan_1.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/arriere_plan_1.jpg', sizingMethod='scale')";
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+footer p, footer a {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 5em;
+  color: #fff;
+}
+h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-style:italic;
+}
+
+.biography {
+  width: 30em;
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align:justify;
+  text-justify:inter-word;
+}
+p, a, li {
+  color: #fff;
+}
+.sharesn {
+  width: 30em;
+  text-align:center;
+}
+.fb-like {
+  vertical-align: text-bottom;
+}
+.twitter-share-button[style] { vertical-align: text-bottom !important; }
